@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+
+    font-weight: 400;
+}
+
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+     display: flex;
+    
+}
+
+.logo-logo {
+    margin-top: 31px;
+}
+
+.menu-title {
+    display: flex;
+    
+   
+}
+
+.menu-subtitle {
+      margin-top: 31px;
+}
+
+.menu li a {
+  
+    margin-right: 0px;
+    margin-left: 90px;
+    
+    
+}
+
+
+.header-menu {
+    
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+line-height: 17px;
+}
+
+.header-menu:hover {
+    color: brown;
+    transition: all 0.45s ease;
+}
+
+
+.frame {
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+
+
+.oboi {
+    margin-top: 108px;
+     height: 550px;
+    background-image: url(../img/oboi.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.oboi-title {
+   margin-top: 145px;
+font-size: 58px;
+line-height: 70px;
+color: #000000;
+    
+}
+
+.oboi-desk {
+    font-size: 16px;
+line-height: 19px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 44px;
+color: #000000;
+    
+}
+
+.oboi-link {
+    font-size: 18px;
+line-height: 22px;
+text-decoration: none;
+margin-left: 120px;
+   padding: 10px 30px;
+color: #000000;
+border: 1px solid #000000;
+border-radius: 300px;
+}
+
+.oboi-link:hover {
+    color: darkcyan;
+    transition: all 0.45s ease;
+}
+
+.mobile {
+   margin-left: 647px;
+    transform: translateY(-420px);
+    border-radius: 0px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop {
+    position: relative;
+    text-align: center;
+    margin-top: 75px;
+  
+}
+
+.shop-title {
+    position: absolute;
+    margin-bottom: 40px;
+    font-size: 42px;
+line-height: 52px;
+    margin-left: 280px;
+color: #000000;
+    
+}
+
+.shop-subtitle {
+    font-size: 14px;
+line-height: 17px;
+text-align: center;
+margin-top: 50px;
+color: #000000;
+}
+
+
+.pk {
+    display: inline;
+
+    margin-top: 200px;
+    
+width: 247px;
+height: 214px;
+  
+}
+
+.pc-title {
+    
+    margin-top: 10px;
+    font-size: 22px;
+line-height: 28px;
+color: #000000;
+    margin-bottom: 9px;
+    
+}
+
+.pc-subtitle {
+    
+    font-size: 14px;
+line-height: 17px;
+color: #4B4B4B;
+    margin-bottom: 9px;
+}
+
+.technology {
+    margin-top: 80px;
+    
+    text-align: center;
+}
+
+.technology-start-title {
+    margin-left: 300px;
+    font-size: 42px;
+line-height: 52px;
+color: #000000;
+    
+}
+
+.technology-start-link {
+    font-size: 13px;
+line-height: 17px;
+color: #000000;
+    
+}
+
+.watch {
+    display: inline-block;
+}
+
+.watch-link {
+    
+    display: inline-block;
+    margin-top: 56px;
+    font-size: 28px;
+line-height: 35px;
+ 
+    margin-left: 100px;
+    background: #F8F9FA;
+    padding: 170px 53px;
+    border-radius: 16px;
+        background-image: url(../img/macmob.svg);
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.double-watch {
+
+    margin-top: -150px;
+}
+
+.button {
+    
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 170px;
+    border: 1px solid #000000;
+border-radius: 200px;
+    padding: 3px 6px;
+
+}
+
+.footer {
+    
+    margin-top: 200px;
+    background-image: url(../img/footer.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.footer-title {
+    margin: 0;
+    margin-bottom: 21px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 38px;
+text-transform: uppercase;
+
+color: black;
+}
+
+.footer-link {
+    color:  #B6C197;
+    text-decoration: none;
+}
+
+.footer-link:hover  {
+    color: aqua;
+}
+
+.footer-middle {
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(4,1fr);
+
+    padding-top: 60px;
+}
+
+.footer-titles {
+    color: black;
+    font-size: 25px;
+    
+}
+
+.footer-titl {
+    margin-left: 40px;
+}
+
+
+.footer-title {
+    font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+margin-bottom: 23px;
+
+color: #B6C197;
+}
+
+
+
+.footer-mail {
+    display: inline-block;
+    margin-bottom: 23px;
+    font-size: 24px;
+line-height: 38px;
+text-decoration: none;
+color: black;
+}
+
+.box {
+
+    text-align: center;
+}
+
+.box ul li {
+     display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: solid 4px #B6C197;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.icon {
+
+    margin-top: 15%;
+    color: #5E6648;;
+
+font-size: 1.7em;
+}
+
+ .box ul li:hover {
+    border: solid 2px #B6C197;
+  }
+
+@media (max-width: 1100px) {
+    .mobile {
+       margin-left: 400px;
+    }
+    .oboi-desk {
+        margin-left: 0px;
+    }
+    
+    .watch-link {
+         display: block;
+    }
+  
+}
+
+@media (max-width: 820px) {
+    .shop-title  {
+        font-size: 35px;
+        margin-left: 180px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .shop-title {
+      margin-left: 100px;
+        font-size: 45px;
+        margin-top: -20px;
+    }
+    .menu-subtitle {
+        margin-left: -60px;
+    
+    }
+    
+    .technology-start-title {
+        font-size: 35px;
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 650px) {
+    .shop-title {
+    font-size: 35px;
+        margin-top: -30px;
+    }
+    .technology-start-title {
+        margin-left: 100px;
+    }
+    .oboi-title {
+       
+        font-size: 35px;
+        
+    }
+    .oboi-desk {
+        font-size: 12px;
+    }
+    .oboi-link {
+        margin-left: 0px;
+    }
+    .footer-column {
+        margin-left: -30px;
+        
+    }
+}
+
+
+@media (max-width: 540px) {
+    .shop-title {
+        font-size: 30px;
+        
+    }
+    .technology-start-title {
+        font-size: 35px;
+    }
+    .technology-start-link {
+        font-size: 15px;
+    }
+    .footer-middle {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-titles {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .shop-title {
+        font-size: 20px;
+        margin-left: 70px;
+        
+        }
+    .technology-start-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 390px) {
+    .shop-title {
+        font-size: 18px;
+        margin-left: 50px;
+        
+    }
+    
+    .technology-start-title {
+        font-size: 22px;
+        margin-left: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
